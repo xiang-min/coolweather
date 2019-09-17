@@ -11,9 +11,8 @@ public class Basic {
     @SerializedName("city")
     public String cityName;
 
-//    这里GSON无法解析weatherId，所以注解掉
-//    @SerializedName("id")
-//    public int weatherId;
+    @SerializedName("id")
+    public String weatherId;
 
     public Update update;
 
